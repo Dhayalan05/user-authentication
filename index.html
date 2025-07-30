@@ -13,20 +13,20 @@
 <body>
     <div class="container">
 
-        <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-top: 10px;">Welcome
+        <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-top: 10px;">LOGIN
         </h2><br>
         <div>
-            <input type="email" placeholder="Enter a email" id="email" class="place">
+            <input type="email" placeholder="Enter a email" id="email" class="place form-control" >
             <p style="color: red; " id="emailerror"></p><br>
-            <input type="password" placeholder="Enter a password" id="password" class="place">
+            <input type="password" placeholder="Enter a password" id="password" class="place form-control">
             <p style="color: red; " id="passworderror"></p>
 
             <label><input type="checkbox" onclick="my()">show password</label><br><br>
-            <button class="btn btn-primary" type="submit">Login</button>
-            <br>
+            <button class="btn btn-primary" type="submit" onclick="login()">Login</button>
+            <br><br>
              <p class="text-dark">Create a New account <a href="register.html">Sign-up?</a></p>
         </div>
-        <p id="message"></p>
+        <p style="color: red;"    id="message"></p>
     </div>
     <script src="index.js"></script>
 

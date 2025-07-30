@@ -1,9 +1,9 @@
 .container{
-    background-color: azure;
+    background-color: rgb(181, 200, 194);
     width: 400px;
     text-align: center;
-    margin-top: 10%;
-    /* height: 350px; */
+    margin-top: 5%;
+
 }
 .place{
     width: 250px;
