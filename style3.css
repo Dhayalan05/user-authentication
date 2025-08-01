@@ -1,0 +1,49 @@
+
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #e7f3fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      width: 400px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    input, select {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .edit-btn {
+      background-color: #007bff;
+    }
+
+    .delete-btn {
+      background-color: #dc3545;
+    }
+
+    .logout-btn {
+      background-color: #6c757d;
+    }
+    .up{
+        color: green;
+    }

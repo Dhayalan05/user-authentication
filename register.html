@@ -18,7 +18,13 @@
             <br>
             <input type="name" placeholder="Enter a Name" id="name" class="place form-control">
             <p style="color: red; " id="nameerror"></p><br>
-            <input type="email" placeholder="Enter a Email" id="email" class="place form-control">
+             <input type="date" placeholder="Enter a date" id="date" class="place form-control">
+            <p style="color: red; " id="dateerror"></p><br>
+              <input type="text" placeholder="Enter a Number" id="number" pattern="\d{10}" maxlength="10" title="Enter 10 digit mobile number" class="place form-control" required />
+
+            <p style="color: red; " id="numbererror"></p><br>
+
+            <input type="email" placeholder="Enter a Email" id="email" class="place form-control" >
             <p style="color: red; " id="emailerror"></p><br>
             <input type="password" placeholder="Enter a Password" id="password" class="place form-control">
             <p style="color: red; " id="passworderror"></p><br>
@@ -27,8 +33,7 @@
             <br><br>
             <p class="text-dark">Already have an account<a href="index.html"> login?</a></p>
         </div>
-        <p style="color: green
-        ;" id="success"></p>
+        <p style="color: green" id="success"></p>
     </div>
     <script src="register.js"></script>
 
